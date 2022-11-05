@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 html, body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background-color: #f1f1f1;
@@ -19,8 +22,8 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 25%;
+    background-color: rgb(3,141,126);
     padding: 10px 20px 0px;
 }
 .header {
@@ -32,18 +35,51 @@ body {
     text-align: left;
     min-height: 300px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(3,141,126);
     min-height: 150px;
     text-align: center;
+    color: white;
+    font-weight: 600;
 }
 
-#imagem-principal {
-    width: 50%;
+.index-images {
+    width: 100%;
     border-radius: 1rem;
 }
 
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+fieldset {
+    border-radius: 1rem;
+
+}
+
+input {
+    width: 30%;
+}
+
+table {
+    width: 80%;
+    height: 70%;
+}
+
+.contact {
+    background-color: white;
+    text-align: left;
+    min-height: 300px;
+    padding: 20px;
 }
